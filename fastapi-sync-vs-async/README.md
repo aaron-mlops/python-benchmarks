@@ -36,3 +36,4 @@ total time
 | sync server   | avg: 1.0231<br/>total: 10.24671      | avg: 1.05919<br/>total: 10.63663     | avg: 2.44698<br/>total: 25.34255       |
 | async server  | avg: 1.02253<br/>total: 10.2439      | avg: 1.03449<br/>total: 10.39144     | avg: 1.04946<br/>total: 10.65541       |
 
+When number of user is 100, total time of sync server takes 2.5 times becuase fastapi uses 40 threads. (100/40 = 2.5)
